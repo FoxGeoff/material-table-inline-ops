@@ -22,3 +22,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ### Task: Add Dialog Component
 
 1. Run ```ng generate component dialog-box --skipTests=true```
+
+### Task: Add flex layout
+
+1. Ref. <https://github.com/angular/flex-layout>
+2. Run ```npm i -s @angular/flex-layout @angular/cdk```
+3. Example demo <https://tburleson-layouts-demos.firebaseapp.com/#/docs>
