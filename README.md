@@ -5,3 +5,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Project References
 
 1. <https://www.freakyjolly.com/angular-material-table-operations-using-dialog/>
+
+### Task: Add material
+
+1. run  ```ng add @angular/material```
