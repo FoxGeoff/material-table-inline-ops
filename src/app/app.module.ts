@@ -12,10 +12,13 @@ import { MatDialogModule } from '@angular/material/dialog';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatButtonModule } from '@angular/material/button';
+import { DialogBoxComponent } from './dialog-box/dialog-box.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DialogBoxComponent,
+    DialogBoxComponent
   ],
   imports: [
     BrowserModule,

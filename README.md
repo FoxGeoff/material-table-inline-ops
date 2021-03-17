@@ -19,4 +19,6 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 3. ```*matHeaderCellDef``` have the text of columns in the table header.
 4. ```#mytable``` is a template variable used to refeash the data by calling the maethos ```rendRows()```
 
+### Task: Add Dialog Component
 
+1. Run ```ng generate component dialog-box --skipTests=true```
