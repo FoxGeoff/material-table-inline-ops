@@ -48,26 +48,26 @@ export class AppComponent {
     });
   }
 
-  addRowData(row_obj) {
+  addRowData(rowObj) {
     const d = new Date();
     this.dataSource.push({
       id: d.getTime(),
-      name: row_obj.name
+      name: rowObj.name
     });
     this.table.renderRows();
 
   }
-  updateRowData(row_obj) {
+  updateRowData(rowObj) {
     this.dataSource = this.dataSource.filter((value, key) => {
-      if (value.id === row_obj.id) {
-        value.name = row_obj.name;
+      if (value.id === rowObj.id) {
+        value.name = rowObj.name;
       }
       return true;
     });
   }
-  deleteRowData(row_obj) {
+  deleteRowData(rowObj) {
     this.dataSource = this.dataSource.filter((value, key) => {
-      return value.id! = row_obj.id;
+      return value.id !== rowObj.id;
     });
   }
 }
